@@ -23,12 +23,12 @@ This Streamlit application predicts whether a passenger is **Satisfied** or **Ne
 
 ---
 ## 📂 Project Structure
-M8-Project-Airline-Satisfaction-Predictions/Streamlit app/
-│
-├── app.py # Streamlit app
-├── data   # CSV files used in the app
-├── images  # images used in the app
-├── requirements.txt # App dependencies
-└── README.md # This file
+Streamlit-app-Airline-Passengers-dataset/                                                                
+|                                                                                            
+├── app.py # Streamlit app                                                                 
+├── data   # CSV files used in the app                                    
+├── images  # images used in the app                                               
+├── requirements.txt # App dependencies                   
+└── README.md # This file                                 
 
-Link for the app [Airline Passengers Satisfaction P](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data)
+Link for the app [Airline Passengers Satisfaction Prediction App](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction/data)
