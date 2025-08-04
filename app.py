@@ -9,7 +9,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.preprocessing import StandardScaler
 
 # App title
-st.set_page_config(page_title="Airline Passengers Satisfaction App", layout="wide", page_icon = "images/logo.jpg")
+st.set_page_config(page_title="Airline Passengers Satisfaction App", layout="wide", page_icon = "image/logo.jpg")
 st.title("🛫 Airline Passenger Satisfaction Prediction App")
 st.divider()
 # Navigation
@@ -18,7 +18,7 @@ st.divider()
 # Home Page
 if page == "🏠 Home":
     st.subheader("Welcome!")
-    st.image("images/airport_terminal.jpg")
+    st.image("image/airport_terminal.jpg")
     st.markdown("""
     This interactive app allows you to:
     - Explore airline passenger satisfaction data
@@ -172,7 +172,9 @@ elif page == "🤖 Predict":
 
 # Recommendations Page
 elif page == "💡 Recommendations":
+    st.divider()
     st.subheader("📌 Insights & Recommendations")
+    st.divider()
     st.markdown("""
     Based on our analysis, here are key recommendations:
     - 🛜 **Improve Inflight Wi-Fi**: Strong correlation with satisfaction
@@ -181,18 +183,3 @@ elif page == "💡 Recommendations":
     - 🧹 **Enhance Cleanliness**: Clean cabins increase positive reviews
     - 💬 **Focus on Customer Service**: Service ratings matter significantly
     """)
-
-#---
-
-# ### 🎨 4. **Make It Visually Appealing**
-
-# - Use emojis in `st.radio` and markdown.
-# - Use `st.columns()` for layout.
-# - Use `st.markdown()` for styled text.
-# - Consider adding a company logo using `st.image()`.
-
-#---
-
-# ### ✅ 5. **Run the App**
-# ```bash
-# streamlit run app.py
