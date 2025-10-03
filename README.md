@@ -19,7 +19,7 @@ This Streamlit application predicts whether a passenger is **Satisfied** or **Ne
 - **scikit-learn** (for machine learning)
 - **pandas, numpy** (for data handling)
 - **matplotlib / seaborn, plotly** (for visualizations)
-- **pickle** (for saving trained models)
+
 
 ---
 ## 📂 Project Structure
